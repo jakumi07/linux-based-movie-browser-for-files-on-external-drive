@@ -1,6 +1,6 @@
 # Movie Browser
 
-Movie Browser is a lightweight desktop app built with Tauri, Vite, and TypeScript for browsing and launching movies from a local or removable drive.
+Movie Browser is a lightweight desktop app built with Tauri, Vite, and TypeScript for browsing and launching movies from a removable drive.
 
 ## Features
 
