@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Browser</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-icon">🎬</span>
+        <h1>Movie Browser</h1>
+      </div>
+      <button id="scan-btn" class="btn btn-primary">
+        <span class="btn-icon">🔍</span> Scan Drive
+      </button>
+    </header>
+
+    <main class="app-content">
+      <div class="toolbar">
+        <div class="search-box">
+          <span class="search-icon">🔎</span>
+          <input id="search-input" type="search" placeholder="Search movies or folders" autocomplete="off" />
+        </div>
+        <div id="status-message" class="status-message">Click "Scan Drive" to search for movies.</div>
+      </div>
+      <div id="movie-container" class="movie-container"></div>
+    </main>
+  </body>
+</html>
